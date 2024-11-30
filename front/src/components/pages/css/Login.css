@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('file:///D:/react%20project/admin/frotend/p2.jpeg') no-repeat center center fixed; /* Replace with your background image path */
+    background-size: cover;
+    backdrop-filter: blur(10px); /* Add blur effect */
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Adjust to take full width of the container */
+    max-width: 500px; /* Set max-width for the form */
+}
+
+.admin-logo {
+    display: block; /* Block display for the image */
+    margin: 0 auto 1rem; /* Center the logo and add margin below */
+    width: 40%; /* Set a width for the image */
+    max-width: 300px; /* Set a maximum width for larger screens */
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Space between form elements */
+}
+
+button {
+    
+    margin-top: 10px; /* Margin on top of the button */
+}
+
+.forgot-password {
+    margin-top: 10px; /* Margin above the forgot password link */
+}
+
+.text-center {
+    text-align: center;
+}
+.btn-grey {
+    background-color: grey;
+    border-color: grey;
+    color: white;
+  }
+  
+  .btn-grey:hover {
+    background-color: darkgrey;
+    border-color: darkgrey;
+  }
+  .dashboard-number {
+    color:darkmagenta; /* Number text color (Bootstrap primary color) */
+  }

@@ -1,0 +1,47 @@
+/* Center align the form title */
+.text-center {
+    text-align: center;
+  }
+  
+  /* Custom margin for the form container */
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Adjusting form styles */
+  .form-control {
+    border-radius: 0.25rem; /* Rounded corners for inputs */
+  }
+  
+  /* Adding some spacing for form labels */
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Custom button styles */
+  .btn {
+    border-radius: 0.25rem; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Increased padding for buttons */
+  }
+  
+  /* Adding hover effects for table rows */
+  .table-striped tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+  }
+  
+  /* Styling the table */
+  .table {
+    margin-top: 20px; /* Space above the table */
+  }
+  
+  /* Custom styles for table headers */
+  .table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text for headers */
+  }
+  
+  /* Custom styles for table cells */
+  .table td {
+    vertical-align: middle; /* Center align cells vertically */
+  }
+  

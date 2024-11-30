@@ -1,0 +1,39 @@
+.add-user-container {
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-top: auto;
+
+  width: 80%;
+  margin:auto;
+}
+
+.add-user-form {
+  padding:2%;
+}
+
+.add-user-form > * {
+  margin-bottom: 10px;
+}
+
+.add-user-form input[type="text"], 
+.add-user-form input[type="email"], 
+.add-user-form input[type="tel"], 
+.add-user-form input[type="password"] {
+  height: 5%;
+  font-size: 10px;
+  padding: 15px;
+}
+
+.add-user-button {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-user-button:hover {
+  background-color: #3e8e41;
+}

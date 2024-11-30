@@ -1,0 +1,46 @@
+.user-report-container {
+  
+        padding:auto;
+        background-color: #f9f9f9;
+      
+      
+        width: 80%;
+        margin:4%;
+      
+      
+  }
+  
+  .user-report-form {
+    margin-top: 0px;
+    width: 70%;
+  }
+  
+  .user-report-table {
+    margin-top: 2px;
+    width: 100%;
+  }
+  
+  .user-report-table th {
+    background-color: #333;
+    color: #fff;
+    padding: 90%;
+    text-align: left;
+  }
+  
+  .user-report-table td {
+    padding: 1px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-report-table td:last-child {
+    text-align: left;
+  }
+  
+  .user-report-button {
+    margin-top: 2px;
+  }
+  
+  .sidebar {
+    width: 90%;
+    margin-left:auto;
+  }

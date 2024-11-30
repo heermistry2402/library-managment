@@ -1,0 +1,67 @@
+/* Page container to handle the layout */
+.page-container {
+  height: 100vh;
+  display: flex;
+  padding-top: 60px; /* Adjust this value based on the height of your top bar */
+}
+
+/* Navbar container to align it properly */
+.navbar-container {
+  background-color: #f5f5f5; /* Adjust the color if needed */
+  height: 100%;
+}
+
+/* Main container styling */
+.form-container {
+  margin-left: 0; /* Ensure it starts next to the navbar */
+  padding: 30px;
+  margin-top: 20px; /* Set to 20px to start right below the top bar */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* Form title styling */
+h4 {
+  font-weight: bold;
+  color: #3f51b5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Text fields spacing */
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+/* Submit button styling */
+.submit-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit-button button {
+  background-color: #3f51b5; /* Primary color */
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.submit-button button:hover {
+  background-color: #303f9f;
+}
+
+/* Typography for the introduction */
+.intro-text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ddd;
+}

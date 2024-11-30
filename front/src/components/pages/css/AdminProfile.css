@@ -1,0 +1,63 @@
+.registration-form-container {
+  max-width: 600px; /* Limit the maximum width of the form */
+  margin: auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding around the form */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.registration-form {
+  margin-top: 20px; /* Add space above the form */
+}
+
+h2 {
+  font-size: 2rem; /* Increase font size for the title */
+  color: #333; /* Darker color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.text-center {
+  text-align: center; /* Center text */
+}
+
+.form-control {
+  border: 1px solid #ced4da; /* Standard border */
+  border-radius: 4px; /* Rounded borders for inputs */
+  transition: border-color 0.2s; /* Smooth transition for border color */
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Box shadow on focus */
+}
+
+.mt-3 {
+  margin-top: 1rem; /* Space above the button */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button background */
+  border-color: #007bff; /* Primary button border */
+  transition: background-color 0.2s, border-color 0.2s; /* Transition effects */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #0056b3; /* Darker border on hover */
+}
+
+.alert {
+  margin-top: 20px; /* Space above alerts */
+}
+
+@media (max-width: 768px) {
+  /* Responsive styles for smaller screens */
+  .registration-form-container {
+    padding: 15px; /* Reduce padding on small screens */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* Smaller font size for the heading */
+  }
+}

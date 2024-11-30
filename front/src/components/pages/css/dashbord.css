@@ -1,0 +1,42 @@
+.dashboard-block {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .dashboard-block:hover {
+    transform: scale(1.05);
+  }
+  .library-logo {
+    margin-top: 20px;
+    width: 50px;
+  }
+    
+
+  .dashboard-total-books {
+    background-color: #e57373;
+  }
+  
+  .dashboard-total-users {
+    background-color: #81c784;
+  }
+  
+  .dashboard-pending-requests {
+    background-color: #64b5f6;
+  }
+  
+  .dashboard-new-registrations {
+    background-color: #ffb74d;
+  }
+  
+  .dashboard-overdue-books {
+    background-color: #ba68c8;
+  }
+  
+  .dashboard-total-transactions {
+    background-color: #4db6ac;
+  }
+  

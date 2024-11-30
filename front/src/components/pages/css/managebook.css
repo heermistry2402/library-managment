@@ -1,0 +1,48 @@
+/* ManageBooks.css */
+
+body {
+  background-color: #f8f9fa; /* Light background for contrast */
+  margin: auto; /* Reset default margins */
+}
+
+.navbar {
+  margin-bottom: 0; /* No space below the navbar */
+  padding: 10px 20px; /* Adjust padding for the navbar */
+  background-color: #fff; /* Ensure navbar background color */
+}
+
+/* Adjust container to start below the navbar */
+.container {
+  max-width: 1000px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding around the container */
+  margin-top: 60px; /* Space for the navbar height */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* White background for the container */
+}
+
+h2 {
+  margin-top: 20px; /* Space above the title */
+  text-align: center; /* Center the title */
+}
+
+/* Style for the table */
+.table {
+  margin-top: 20px; /* Space above the table */
+}
+
+.table th,
+.table td {
+  text-align: center; /* Center align table content */
+}
+
+.table img.cover-image {
+  max-width: 100px; /* Set a max width for images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Make the table responsive */
+.table-responsive {
+  overflow-x: auto; /* Enable horizontal scroll for small screens */
+}

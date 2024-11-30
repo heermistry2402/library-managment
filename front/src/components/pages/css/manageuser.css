@@ -1,0 +1,167 @@
+/* Main container styling */
+
+  /* managebook.css */
+
+/* managebook.css */
+/* manageuser.css */
+
+/* Style for the manage users container */
+.manage-users-container {
+    max-width: 1000px; /* Set a maximum width for the container */
+    margin:  auto; /* Center the container */
+    margin-right: 200px;
+    margin-left: 300px;
+}
+
+
+/* Style for the form */
+.manage-users-container .form-group {
+    margin-bottom: 15px; /* Reduce space between form elements */
+}
+
+/* Adjust the table */
+.table {
+    font-size: 0.85rem; /* Decrease font size for the table */
+}
+
+.edit-btn, .delete-btn {
+    font-size: 0.85rem; /* Adjust the button font size */
+}
+
+  
+  /* Navbar related CSS if needed */
+  .navbar {
+    margin-bottom: 0; /* Ensure there's no additional margin from the navbar */
+  }
+  
+    
+    /* Header styling */
+    .manage-books-container h2 {
+      color: #343a40; /* Dark text for the header */
+      margin-bottom: 20px; /* Space below the header */
+    }
+    
+    /* Table styling */
+    .table {
+      background-color: #fff; /* White background for the table */
+      border-radius: 5px; /* Rounded corners for the table */
+      overflow: hidden; /* Prevent overflow on rounded corners */
+    }
+    
+    /* Table header styling */
+    .table th {
+      background-color: #007bff; /* Primary color for table header */
+      color: white; /* White text for header */
+      font-weight: bold; /* Bold font for header */
+      text-align: center; /* Center align header text */
+    }
+    
+    /* Table cell styling */
+    .table td {
+      vertical-align: middle; /* Center align table cells */
+      text-align: center; /* Center align cell text */
+    }
+    
+    /* Button styling */
+    button {
+      color: #007bff; /* Primary color for buttons */
+      font-weight: bold; /* Bold font for button text */
+    }
+    
+    button:hover {
+      text-decoration: underline; /* Underline on hover for links */
+    }
+    
+    /* Search input styling */
+    .form-control {
+      border-radius: 20px; /* Rounded corners for search input */
+      border: 1px solid #ced4da; /* Border color */
+    }
+    
+    .form-control:focus {
+      border-color: #007bff; /* Change border color on focus */
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .manage-books-container {
+        padding: 15px; /* Less padding on smaller screens */
+      }
+    
+      .table {
+        font-size: 14px; /* Smaller font size for smaller screens */
+      }
+    }
+    /* Parent styles to remove border and add custom styling */
+  .edit-btn, .delete-btn {
+    background-color: transparent;
+    border: none;
+    color: #007bff; /* Blue color for edit button */
+    font-size: 14px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0f7fa; /* Light blue on hover */
+    color: #0056b3;
+  }
+  
+  .delete-btn {
+    color: #dc3545; /* Red color for delete button */
+  }
+  
+  .delete-btn:hover {
+    background-color: #f8d7da; /* Light red on hover */
+    color: #c82333;
+  }
+  
+  /* Adding some margin between the buttons */
+  .ml-2 {
+    margin-left: 10px;
+  }
+  
+  /* Remove focus outline when clicking the buttons */
+  .edit-btn:focus, .delete-btn:focus {
+    outline: none;
+  }
+  .edit-btn, .delete-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    color: #007bff; /* Edit button color */
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0f7fa; /* Light blue on hover */
+    color: #0056b3;
+  }
+  
+  .delete-btn {
+    color: #dc3545; /* Delete button color */
+  }
+  
+  .delete-btn:hover {
+    background-color: #f8d7da; /* Light red on hover */
+    color: #c82333;
+  }
+  
+  .ml-2 {
+    margin-left: 8px; /* Add space between buttons */
+  }
+  
+  .edit-btn:focus, .delete-btn:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,119 @@
+/* Navbar specific styles */
+.MuiDrawer-paper {
+  background-color: #fafafa;
+}
+
+/* List item hover effect */
+.MuiListItem-root:hover {
+  background-color: #d3d3d3;
+}
+
+/* Active state styling */
+.MuiListItem-root.active {
+  background-color:lightcoral;
+  color: white;
+}
+
+/* Icons with more spacing */
+.MuiSvgIcon-root {
+  margin-right: 16px;
+  color: #333;
+}
+
+/* Typography tweaks */
+.MuiTypography-root {
+  font-weight: bold;
+}
+
+/* Navbar specific styles */
+.MuiDrawer-paper {
+  background-color: #fafafa;
+}
+
+/* List item hover effect */
+.MuiListItem-root:hover {
+  background-color: #d3d3d3;
+}
+
+/* Active state styling */
+.MuiListItem-root.active {
+  background-color: lightcoral;
+  color: white;
+}
+
+/* Icons with more spacing */
+.MuiSvgIcon-root {
+  margin-right: 16px;
+  color: #333;
+}
+
+/* Submenu item padding and hover effect */
+.submenu-item {
+  padding-left: 40px; /* Indented submenu */
+}
+
+/* Submenu hover effect */
+.submenu-item:hover {
+  background-color: #e0e0e0;
+}
+
+/* Typography tweaks */
+.MuiTypography-root {
+  font-weight: bold;
+}
+/* Navbar container style */
+.MuiDrawer-paper {
+  background-color: #f5f5f5;
+}
+
+/* General styling for ListItems */
+.MuiListItem-root {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Style for the active list item */
+.MuiListItem-root.active {
+  background-color: lightcoral;
+  color: white;
+}
+
+/* Icon and text alignment for submenu items */
+.MuiListItemIcon-root {
+  min-width: 40px; /* Ensures proper space between icon and text */
+}
+
+.MuiListItemText-root {
+  margin: 0;
+}
+
+.MuiListItem-root .MuiSvgIcon-root {
+  color:black; /* Customize icon color */
+}
+
+/* Add some padding to make submenu items stand out */
+.MuiCollapse-wrapperInner .MuiListItem-root {
+  padding-left: 36px; /* Adds indentation for submenu items */
+}
+
+/* Submenu item hover effect */
+.MuiListItem-root:hover {
+  background-color: rgba(109, 27, 123, 0.1);
+}
+
+/* Ensure consistent spacing for icons */
+.MuiSvgIcon-root {
+  margin-right: 8px;
+}
+/* Custom styles for the admin image */
+.admin-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.admin-name {
+  font-size: 1.2rem;
+  color: #333;
+}
