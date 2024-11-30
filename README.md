@@ -34,4 +34,4 @@ Database Name: import your database mongoDB link
 
 # Output:
 - Admin Login :
-  https://github.com/heermistry2402/library-managment/blob/main/output%20ss/Manage%20book.png
+
