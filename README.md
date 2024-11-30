@@ -9,26 +9,26 @@
   - Edit the Admin Profile
 
 # Pre Required
--Install Node.js (v16 or later recommended).
--Install MongoDB and ensure it is running on your system or use a cloud-based MongoDB service like MongoDB Atlas.
--Install Git for version control.
+- Install Node.js (v16 or later recommended).
+- Install MongoDB and ensure it is running on your system or use a cloud-based MongoDB service like MongoDB Atlas.
+- Install Git for version control.
 
 # How To Set Up Backend and Frontend
 Database Name: import your database mongoDB link
 
 # How To Set Frontend
--Navigate to the Backend folder: cd Frontend
--Install dependencies: npm i
--Start the backend server: npm start
+- Navigate to the Backend folder: cd Frontend
+- Install dependencies: npm i
+- Start the backend server: npm start
 
 # How To Set Backend
--Navigate to the frontend folder:cd backend
--Install dependencies:npm i
--Start the frontend : npm start
+- Navigate to the frontend folder:cd backend
+- Install dependencies:npm i
+- Start the frontend : npm start
 
 # Technologies 
--ReactJS[Hooks]
--NodeJs
--ExpressJs
--MongoDB
+- ReactJS[Hooks]
+- NodeJs
+- ExpressJs
+- MongoDB
 
